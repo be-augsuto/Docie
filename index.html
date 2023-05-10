@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dociê Confeitaria</title>
+
+  <!-- Link Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="./estilo.css">
+</head>
+
+<body style="background-color: #fefdfd;">
+
+  <!-- NAV BAR -->
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #76481d;">
+      <div class="container-fluid">
+        <img src="./imagens/logo.png" class="rounded-circle" alt="Dociê Confeitaria" width="60" height="54">
+        <a class="navbar-brand ms-3" href="./index.html">Dociê Confeitaria</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+            <li class="nav-item" id="home">
+              <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./produtos.html">Produtos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./nossahistoria.html">Nossa História</a>
+            </li>
+
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <!-- END NAV BAR -->
+
+
+  <!-- Carrossel -->
+
+  <div id="carouselExampleCaptions" class="carousel slide mx-auto" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./imagens/carolsel1.png" class="d-block w-100" alt="Aglomerado de Alfajor">
+        <div class="carousel-caption d-none d-md-block">
+
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./imagens/carolsel2.png" class="d-block w-100" alt="Bolo de Laranja">
+        <div class="carousel-caption d-none d-md-block">
+
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./imagens/carolsel3.png" class="d-block w-100" alt="Bolo de Morango">
+        <div class="carousel-caption d-none d-md-block">
+
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- END  Carrossel -->
+
+  <!--CARDS -->
+
+  <main>
+    <article>
+
+      <div class="container my-5 " id="produtos">
+        <h3 class="text-center my-3 titulo">Busque por categoria:</h3>
+        <div class="row row-cols-1 row-cols-md-4 mt-2  g-4 ">
+
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card mx-auto" style="width: 18rem;">
+              <img src="./imagens/bolo1.jpg" class="card-img-top " alt="bolo de festa">
+              <div class="card-body d-grid ">
+                <a class="btn " href="./produtos.html" role="button" style="background-color: #76481d; color: #fefdfd;">
+                  <p class="card-text">Bolos.</p>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card mx-auto" style="width: 18rem;">
+              <img src="./imagens/doce1.jpg" class="card-img-top" alt="doce beijinho">
+              <div class="card-body d-grid">
+                <a class="btn " href="./produtos.html" role="button" style="background-color: #76481d; color: #fefdfd;">
+                  <p class="card-text">Doces.</p>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card mx-auto" style="width: 18rem;">
+              <img src="./imagens/torta1.jpg" class="card-img-top" alt="torta de maracuja">
+              <div class="card-body d-grid">
+                <a class="btn " href="./produtos.html" role="button" style="background-color: #76481d; color: #fefdfd;">
+                  <p class="card-text">Tortas.</p>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </article>
+
+    <!-- END CARDS -->
+
+    <!--Sobre Nos -->
+
+    <article>
+
+      <hr class="mx-auto" style="color: #e8b5c0; width: 75%;">
+
+      <div class="container my-5 " id="sobrenos">
+        <h3 class="text-center my-4 titulo">Quem Somos?</h3>
+        <div class="container-fluid">
+          <img class=" mx-auto rounded-circle logo d-flex" src="./imagens/logo.png" alt="Logo Dociê">
+          <h5 class="text-justify fs-5 mt-2 ">
+            A Dociê Confeitaria surgiu em 2022 através de um projeto desenvolvido em sala de aula na
+            qual os 2 sócios realizaram uma pesquisa de mercado e visualizaram uma oportunidade de
+            poder abrir uma confeitaria que pudesse atender a classe mais baixa com produtos
+            sofisticados e de qualidade. Realizamos pesquisas para buscar a viabilidade do negócio. Hoje
+            somos uma empresa especializada em fazer os melhores doces para seu dia a dia e para seu
+            evento.
+            Contamos em nossa confeitaria com bolos, tortas, doces em geral e com uma linha exclusiva
+            de produtos sem glúten, sem lactose e sem açúcar.
+            Nosso objetivo é garantir o bom atendimento e a satisfação. Utilizamos produtos de primeira
+            qualidade para entregar o melhor aos nossos clientes.
+
+
+          </h5>
+        </div>
+
+      </div>
+
+    </article>
+    <!--END Sobre Nos -->
+
+
+    <!--HISTORIA -->
+    <article>
+
+      <hr class="mx-auto" style="color: #e8b5c0; width: 75%;">
+
+      <div class="container my-5" id="historia">
+        <h3 class="text-center mt-5 titulo">História da Confeitaria:</h3>
+
+        <div class="row container">
+          <img class="col-sm-12 col-md-6 col-md-6 rounded-circle w-25 mx-auto gordinho" src="./imagens/historia2sb.png"
+            alt="Confeiteiro">
+          <h5 class="col-sm-12 col-md-6 text-justify fs-4 my-auto ">
+            A origem da palavra confeitaria vem do latim “confectun”, que significa aquilo que é
+            confeccionado com especialidade. Se trata então dos pratos elaborados, levando um toque
+            especial do confeiteiro ou personalizados de acordo com o pedido do cliente.
+            <br>
+            <a class="btn mt-2" href="./nossahistoria.html" role="button"
+              style="background-color: #76481d; color: #fefdfd;">Saiba Mais</a>
+          </h5>
+        </div>
+
+      </div>
+    </article>
+  </main>
+
+  <!--END  HISTORIA -->
+
+
+  <!-- FOOTER -->
+
+  <footer class="text-white text-center text-lg-start" style="background-color: #76481d;">
+
+    <div class="container p-4">
+
+      <div class="row mt-4">
+
+        <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4 titulo">Redes Sociais</h5>
+
+          <div class="mt-4">
+            <!-- Facebook -->
+            <a type="button" class="btn btn-floating btn-light btn-lg"><img src="./imagens/facebook.png"
+                alt="Logo Facebook"></a>
+            <!-- Twitter -->
+            <a type="button" class="btn btn-floating btn-light btn-lg"><img src="./imagens/twitter.png"
+                alt="Logo Twitter"></a>
+            <!-- Google + -->
+            <a type="button" class="btn btn-floating btn-light btn-lg"><img src="./imagens/google.png"
+                alt="Logo Google"></a>
+            <!-- Instagram -->
+            <a type="button" class="btn btn-floating btn-light btn-lg"><img src="./imagens/instagram.png"
+                alt="Logo Instagram"></a>
+
+            <p class="mt-5">
+              <span><img style="height: 1.5rem;" src="./imagens/home.png" alt="Icone Casa"></span>
+              <span>Contagem - MG,32040-652</span>
+            </p>
+          </div>
+
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4 pb-1 titulo">Posso Ajudar?</h5>
+
+          <div class="form-outline form-white mb-4">
+            <input type="text" id="formControlLg" class="form-control form-control-lg">
+            <label class="form-label" for="formControlLg" style="margin-left: 0px;">Buscar</label>
+            <div class="form-notch">
+              <div class="form-notch-leading" style="width: 9px;"></div>
+              <div class="form-notch-middle" style="width: 48.8px;"></div>
+              <div class="form-notch-trailing"></div>
+            </div>
+          </div>
+          <p class="mx-auto tel">
+            <span><img style="height: 1.5rem;" src="./imagens/email.png" alt="icone email"></span>
+            <span>info@example.com</span>
+          </p>
+
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4 titulo">Horário de funcionamento</h5>
+
+          <table class="table text-center text-white">
+            <tbody class="font-weight-normal">
+              <tr>
+                <td>Segunda - Quinta:</td>
+                <td>7am - 8pm</td>
+              </tr>
+              <tr>
+                <td>Sexta - Sabado:</td>
+                <td>8am - 10pm</td>
+              </tr>
+              <tr>
+                <td>Domingo:</td>
+                <td>9am - 6pm</td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="tel mx-auto ">
+            <span><img style="height: 1.5rem;" src="./imagens/phone.png" alt="icone telefone"></span>
+            <span>(31) 998765-4321</span>
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.4);">
+      © 2023 Copyright:
+      <a class="text-white" href="./index.html">Dociê Confeitaria</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+  <!-- END FOOTER -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

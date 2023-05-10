@@ -1,0 +1,63 @@
+/* GERAIS*/
+
+/* Fontes Importadas */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&display=swap');
+
+/* Propriedades Gerais */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: nome;
+  list-style: none;
+}
+
+.titulo{
+  font-weight: bold;
+  font-family: 'Merriweather', serif;
+}
+
+.colors {
+  color: #fefdfd;
+  color: #e8b5c0;
+  color: #d85a79;
+  color: #76481d;
+  color: #272727;
+}
+
+.divisao{
+  margin-top: 5.5rem;
+  margin-bottom: 3.5rem;
+}
+
+.carousel {
+  width: 100%;
+  margin-top: 4rem;
+}
+
+.nav-link, .navbar-brand{
+  color: #fff;
+}
+
+.tel {
+  width: 50%;
+}
+
+.card:hover{
+  transition: 0.35s !important;
+  transform: scale(1.035);
+}
+
+.text-justify{
+  text-align: justify !important;
+}
+
+.logo{
+  width: 35% !important;
+}
+
+.gordinho{
+  width: 40% !important;
+}
